@@ -1,0 +1,25 @@
+.header {
+	display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+    color: white;
+    font-weight: 500;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+    }
+    &__navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 30%;
+    }
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,0 +1,14 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+&__wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    // // color: red;
+    // flex-direction: column-reverse;
+}
+}

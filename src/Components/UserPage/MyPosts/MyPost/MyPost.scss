@@ -1,0 +1,55 @@
+.myPost{
+        width: 50%;
+        border: 1px solid grey;
+        margin-top: 5px;
+        min-height: 50px;
+        display: flex;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+        &__ui{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+        }
+        &__content{
+
+            display: block; 
+            text-align: left;
+        }
+        &__edit{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        &__input{
+            width: 90%;
+            min-height: 50px;
+            resize: none
+        }
+        &__icon{
+            cursor: pointer;
+            margin-right: 10px;
+            display: block;
+
+        }
+        &__delete{
+            cursor: pointer;
+            margin-right: 20px;
+            color: #3183ee;
+        }
+        &__editPost{
+            cursor: pointer;
+            color: #3183ee;
+            
+        }
+        &__footer{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }

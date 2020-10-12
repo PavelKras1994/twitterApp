@@ -1,0 +1,38 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 3px 3px;
+    margin-bottom: 10px;
+&__content {
+    margin-bottom: 10px;
+}
+&__email {
+    font-style: italic;
+    margin-top: 5px;
+    width: 100%;
+    border-top: 1px solid grey ;
+}
+&__body {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+&__comment {
+    // font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+
+    
+}
+&__author {
+    // font-size: 1.1rem;
+    color: #287ff3;
+}
+
+
+}
